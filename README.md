@@ -19,4 +19,48 @@ Below is a guide to how to use this package
 ```
 npm install devil-passgen
 ```
+### Usage
 
+```
+const password = passgen();
+```
+By Default, The password generator will generate 30 Random password characters including:
+
+- Uppercased letters
+- Lowercased letters
+- Numbers
+- Special Characters
+
+#### Adding arguments
+The password generator takes in two arguments
+
+##### The first is 
+- the characters you want the script to generate for you
+
+```
+const passgen = require('passgen')
+
+const password = passgen('abcdefgh')
+```
+
+This will generate 30 random password characters using the argument provided that is, 'abcdefgh'
+
+
+##### The second is 
+- the password length
+
+you can provide a length to the code to generate the password for you
+
+
+```
+const passgen = require('passgen')
+
+const password = passgen('abcdefgh',20)
+
+```
+
+This script will generate 20 random characters using the first argument as its pattern generator
+
+
+
+ 
