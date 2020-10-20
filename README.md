@@ -62,5 +62,8 @@ const password = passgen('abcdefgh',20)
 This script will generate 20 random characters using the first argument as its pattern generator
 
 
+## Screenshot
+![image](https://res.cloudinary.com/everich1/image/upload/v1603185280/githubSnippets/snippet_u5naeg.png)
+
 
  
