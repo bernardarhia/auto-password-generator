@@ -1,4 +1,4 @@
-# auto-password-generator
+# Auto-password-generator
 This is a simple password generator
 
 ## Motivation
